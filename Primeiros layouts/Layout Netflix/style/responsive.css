@@ -1,0 +1,6 @@
+@media screen and (max-wdith: 700px) {
+    header .container-header{
+        display: flex;
+        flex-direction: column;
+    }
+}

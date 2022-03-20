@@ -1,0 +1,128 @@
+:root{
+    --corVermelha: #e50914;
+    --corPreta: #141414;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--corPreta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container-header{
+    display: flex;
+    align-items: center;
+    height: 68px;
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0.80), transparent);
+    position: fixed;
+    width: 100%;
+}
+header .logo{
+    color: var(--corVermelha);
+    font-size: 23pt;
+    margin-left: 50px;
+}
+header nav{
+    margin-left: 40px;
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(233, 231, 231);
+    margin-right: 15px;
+    font-size: 14px;
+    transition: .3s ease all;
+}
+header nav a:hover{
+    color: rgb(184, 184, 184);
+}
+
+/*Filme principal*/
+.abertura{
+    position: absolute;
+}
+.filme-principal{
+    font-size: 18px;
+    color: black;
+    background: linear-gradient(360deg, var(--corPreta)30%, transparent 40%), url(/img/jorell.jpg);
+    height: 1000px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container{
+    margin-left: 50px;
+    margin-bottom: 10%;
+}
+.filme-principal .descricao{
+    color:rgb(255, 255, 255);
+    width: 40%;
+    font-weight: bold;
+    z-index: 300;
+}
+.titulo{
+   color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: bold;
+}
+
+/*Botoes*/
+
+.botoes{
+    margin-bottom: 1%;
+}
+.botoes .botao{
+    border-radius: 3px;
+    border-style: none;
+    
+    height: 32px;
+    padding: 15px 10px 30px 10px;
+    
+    font-size: 17px;
+    font-weight: bold;
+    
+    text-align: center;
+    cursor: pointer;
+    transition: .2s ease all;
+    margin-top: 72px;
+}
+.botao1{
+    background-color: white;
+    width: 140px;
+}
+.botao2{
+    margin-left: 6px;
+    width: 230px;
+    background-color: rgba(51, 51, 51, 0.5);
+    color: white;
+
+}
+
+.botao:hover{
+    background-color: rgba(0, 0, 0, .20);
+}
+.botao i{
+    margin-right: 9px;
+}
+.box-filme{
+    height: 150px;
+    display: block;
+    cursor: pointer;
+}
+.assistindo-como{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    margin-left: 50px;
+    color: rgba(255, 255, 255, 0.808);
+}
+.container-carrossel{
+    max-width: 100%;
+    margin-bottom: 65px;
+}

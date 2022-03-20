@@ -1,0 +1,38 @@
+/* Background Color*/
+
+.backg-gray {
+    background-color: var(--backg-gray);
+}
+
+.backg-black {
+    background-color: var(--backg-black);
+}
+
+.backg-blue-baby {
+    background-color: var(--blue-baby);
+}
+
+.backg-salmon {
+    background-color: #f7d9c4;
+}
+
+ /* Color*/
+
+.salmon {
+    color: var(--salmon);
+}
+
+
+
+.color-black {
+    color: #1b2026ce;
+}
+
+
+/* Flexbox*/
+
+.flex-full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
